@@ -39,6 +39,7 @@ attribute :daemon, :kind_of => [TrueClass, FalseClass], :default => false
 attribute :pidfile, :kind_of => [String, NilClass], :default => nil
 attribute :umask, :kind_of => [String, Integer], :default => 0
 attribute :logfile, :kind_of => String, :default => '-'
+attribute :errorlog, :kind_of => String, :default => nil
 attribute :loglevel, :kind_of => [String, Symbol], :default => :info
 attribute :proc_name, :kind_of => [String, NilClass], :default => nil
 attribute :virtualenv, :kind_of => String, :default => nil
